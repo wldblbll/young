@@ -36,6 +36,8 @@ def get_questions():
             )
     return result_list
 
+
+st.set_page_config(page_title='Questionnaire des schémas de pensée') #, layout = 'wide') , page_icon = 'logo2.png', initial_sidebar_state = 'auto')
 st.title("Questionnaire des schémas de pensée")
 
 #result_list = get_questions()
