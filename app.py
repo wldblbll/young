@@ -36,7 +36,7 @@ def get_questions():
             )
     return result_list
 
-st.title("Questionnaire de Young")
+st.title("Questionnaire des schémas de pensée")
 
 #result_list = get_questions()
 #st.write(str(result_list))
@@ -659,10 +659,7 @@ pour se décrire elle-même. Nous vous prions de lire chaque affirmation et d'é
 quelle mesure elle constitue une bonne description de vous-même. Lorsque vous hésitez, 
 basez votre réponse sur ce que vous ressentez émotionnellement, et non pas sur ce que 
 vous pensez rationnellement être vrai pour vous.
-Si vous le désirez, reformulez l'affirmation de telle sorte qu'elle vous corresponde encore 
-mieux. Choisissez ensuite entre 1 et G la cote la plus élevée vous décrivant le mieux et 
-inscrivez-la dans l'espace précédant chaque affirmation.
-
+Selectionnez ensuite entre 1 et 6 la réponse vous décrivant le mieux.
 """)
 
 answers_dict = {}
