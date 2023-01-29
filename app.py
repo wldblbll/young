@@ -62,7 +62,7 @@ if run:
         st.error("Vous n'avez pas répondu aux questions suivantes : "+unanswered_questions_str)
 
     df_analysis = df.groupby("category").answer.value_counts()
-    st.subtitle("Tableau des résultats:")
+    st.subheader("Tableau des résultats:")
     st.write(df_analysis)
     results_analysis = df_analysis.to_string()
     results_report = results_analysis + f"\n\n" + df[["category", "question_number", "answer_short", "question_text"]].to_string()
